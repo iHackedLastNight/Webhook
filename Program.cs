@@ -3,13 +3,14 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-class Program
+class Webhook
 {
     static async Task Main(string[] args)
     {
-        string webhookUrl = "https://discord.com/api/webhooks/1259507523720052819/F5U50YMBPWxw5jx-lN-r0JNSW1DfHrFM2cfs4w5vVdu30nx7jzkeHoBcYF-yakYK59kz";
-
-        string jsonPayload = "{\"content\": \"**Hey Babe I'm L0rHacker C# Webhook Sender !**\"}";
+        // your Webhook Here
+        string webhookUrl = "";
+        // your Message
+        string jsonPayload = "{\"content\": \"**l0rl0rl0rl0rl0rl0r**\"}";
 
         using (HttpClient client = new HttpClient())
         {
